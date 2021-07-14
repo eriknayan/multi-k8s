@@ -15,5 +15,9 @@ spec:
       containers:
       - name: client
         image: eriknayan/multi-client
+        resources:
+          limits:
+            memory: "2048Mi"
+            cpu: "1000m"
         ports:
         - containerPort: 3000

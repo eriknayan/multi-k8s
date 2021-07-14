@@ -15,6 +15,10 @@ spec:
       containers:
       - name: server
         image: eriknayan/multi-server
+        resources:
+          limits:
+            memory: "2048Mi"
+            cpu: "1000m"
         ports:
           - containerPort: 5000
         env:
