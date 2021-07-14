@@ -17,8 +17,8 @@ spec:
         image: eriknayan/multi-worker
         resources:
           limits:
-            memory: "2048Mi"
-            cpu: "1000m"
+            memory: "128Mi"
+            cpu: "200m"
         env: 
           - name: REDIS_HOST
             value: redis-cluster-ip-service

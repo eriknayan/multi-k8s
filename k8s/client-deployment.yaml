@@ -17,7 +17,7 @@ spec:
         image: eriknayan/multi-client
         resources:
           limits:
-            memory: "2048Mi"
-            cpu: "1000m"
+            memory: "128Mi"
+            cpu: "200m"
         ports:
         - containerPort: 3000

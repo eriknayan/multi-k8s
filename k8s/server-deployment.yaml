@@ -17,8 +17,8 @@ spec:
         image: eriknayan/multi-server
         resources:
           limits:
-            memory: "2048Mi"
-            cpu: "1000m"
+            memory: "128Mi"
+            cpu: "200m"
         ports:
           - containerPort: 5000
         env:
